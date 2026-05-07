@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome RPA Popup Testing Suite",
+  "Type": "Screen",
+  "Id": "Z0-AL2tLF0-1kX8XFBYLGQ",
+  "Reference": "vDclkoP0ZUavYEPzHVhVmw/Z0-AL2tLF0-1kX8XFBYLGQ",
+  "ParentRef": "vDclkoP0ZUavYEPzHVhVmw/kqMmLjJlYEycMmM8AGH3hw",
+  "Created": "2026-05-07T09:50:30.8292193Z",
+  "Updated": "2026-05-07T09:50:30.8292193Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.31.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "Name": "ClosePopupModule",
+  "ProjectType": "Process",
+  "Description": "ClosePopupModule",
+  "MainFile": "ClosePopup.xaml"
+}

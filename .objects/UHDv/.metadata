@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome RPA Popup Testing Suite",
+  "Type": "App",
+  "Id": "UHDv6vN0rkay-DV6Cu4taQ",
+  "Reference": "vDclkoP0ZUavYEPzHVhVmw/UHDv6vN0rkay-DV6Cu4taQ",
+  "Created": "2026-05-07T09:50:30.7808856Z",
+  "Updated": "2026-05-07T09:50:30.7808856Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.31.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

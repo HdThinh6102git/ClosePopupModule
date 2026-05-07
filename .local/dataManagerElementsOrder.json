@@ -1,0 +1,47 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": null,
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ClosePopup.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "closeDomPopupStatus&Sequence_1",
+        "closeNativePopupStatus&Sequence_1",
+        "closeAllDomPopupStatus&Sequence_1",
+        "closeAllWindowPopupStatus&Sequence_1",
+        "activeWindow&Sequence_18",
+        "mainHwnd&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ModuleImplementationExample.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "browserInstance&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ModuleImplementationExample02.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "browserInstance&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    }
+  ]
+}

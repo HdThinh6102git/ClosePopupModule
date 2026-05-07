@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome Test Popup Blocker - WebBrowserTools",
+  "Type": "App",
+  "Id": "0QdaNr8zL0e3p5SoWgA3Ug",
+  "Reference": "vDclkoP0ZUavYEPzHVhVmw/0QdaNr8zL0e3p5SoWgA3Ug",
+  "Created": "2026-05-07T07:35:01.471719Z",
+  "Updated": "2026-05-07T07:35:01.471719Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.31.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

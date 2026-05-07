@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome Login  RPA Testing Suite",
+  "Type": "App",
+  "Id": "Ai_jF9jsTUqW6C7wZIjHHg",
+  "Reference": "vDclkoP0ZUavYEPzHVhVmw/Ai_jF9jsTUqW6C7wZIjHHg",
+  "Created": "2026-05-07T09:47:01.3221855Z",
+  "Updated": "2026-05-07T09:47:01.3221855Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.31.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
