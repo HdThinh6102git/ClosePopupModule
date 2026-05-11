@@ -111,7 +111,7 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="ClosePopup" sap:VirtualizedContainerService.HintSize="1236,1210" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="ClosePopup" sap:VirtualizedContainerService.HintSize="1238,2934" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="closeDomPopupStatus" />
       <Variable x:TypeArguments="uix:NPopupHandleState" Name="closeNativePopupStatus" />
@@ -126,23 +126,23 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:InterruptibleWhile CurrentIndex="{x:Null}" Condition="True" DisplayName="While (Loop Close All Popup)" sap:VirtualizedContainerService.HintSize="522,1187" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_2">
+    <ui:InterruptibleWhile CurrentIndex="{x:Null}" Condition="True" DisplayName="While (Loop Close All Popup)" sap:VirtualizedContainerService.HintSize="630,2911" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_2">
       <ui:InterruptibleWhile.Body>
-        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="520,1065" sap2010:WorkflowViewState.IdRef="Sequence_24">
+        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="628,2789" sap2010:WorkflowViewState.IdRef="Sequence_24">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:IfElseIfV2 Condition="[in_PopupType.Equals(&quot;DOM&quot;)]" DisplayName="Else If" sap:VirtualizedContainerService.HintSize="486,957" sap2010:WorkflowViewState.IdRef="IfElseIfV2_3">
+          <ui:IfElseIfV2 Condition="[in_PopupType.Equals(&quot;DOM&quot;)]" DisplayName="Else If" sap:VirtualizedContainerService.HintSize="594,2681" sap2010:WorkflowViewState.IdRef="IfElseIfV2_3">
             <ui:IfElseIfV2.Else>
-              <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="484,165" sap2010:WorkflowViewState.IdRef="Sequence_138">
+              <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="592,165" sap2010:WorkflowViewState.IdRef="Sequence_138">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <Sequence DisplayName="Close Window Popup" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_144">
+                <Sequence DisplayName="Close Window Popup" sap:VirtualizedContainerService.HintSize="558,57" sap2010:WorkflowViewState.IdRef="Sequence_144">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -336,7 +336,7 @@
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <If Condition="[Not activeWindow.Get(&quot;hwnd&quot;).ToString.Equals(mainHwnd)]" DisplayName="If Chrome Window is a popup" sap:VirtualizedContainerService.HintSize="452,578" sap2010:WorkflowViewState.IdRef="If_34">
+                              <If Condition="[Not activeWindow.Get(&quot;hwnd&quot;).ToString.Equals(mainHwnd) AndAlso activeWindow.Get(&quot;title&quot;).ToString.Trim &lt;&gt; &quot;&quot;]" DisplayName="If Chrome Window is a popup" sap:VirtualizedContainerService.HintSize="452,578" sap2010:WorkflowViewState.IdRef="If_34">
                                 <If.Then>
                                   <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,165" sap2010:WorkflowViewState.IdRef="Sequence_151">
                                     <sap:WorkflowViewStateService.ViewState>
@@ -412,7 +412,7 @@
                     </sap:WorkflowViewStateService.ViewState>
                   </ui:InterruptibleWhile>
                 </Sequence>
-                <Sequence DisplayName="Close Dom Popup" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="Sequence_139">
+                <Sequence DisplayName="Close Dom Popup" sap:VirtualizedContainerService.HintSize="558,48" sap2010:WorkflowViewState.IdRef="Sequence_139">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -522,13 +522,13 @@
               <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
                 <ui:IfElseIfBlock BlockType="ElseIf" Condition="[in_PopupType.Equals(&quot;WID&quot;)]" DisplayName="If else if block" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_3">
                   <ui:IfElseIfBlock.Then>
-                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="484,283" sap2010:WorkflowViewState.IdRef="Sequence_120">
+                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="592,2007" sap2010:WorkflowViewState.IdRef="Sequence_120">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <Assign sap:VirtualizedContainerService.HintSize="450,175" sap2010:WorkflowViewState.IdRef="Assign_47">
+                      <Assign sap:VirtualizedContainerService.HintSize="558,175" sap2010:WorkflowViewState.IdRef="Assign_47">
                         <Assign.To>
                           <OutArgument x:TypeArguments="x:Int32">[closeAllDomPopupStatus]</OutArgument>
                         </Assign.To>
@@ -536,10 +536,10 @@
                           <InArgument x:TypeArguments="x:Int32">[1]</InArgument>
                         </Assign.Value>
                       </Assign>
-                      <Sequence DisplayName="Close Window Popup" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="Sequence_119">
+                      <Sequence DisplayName="Close Window Popup" sap:VirtualizedContainerService.HintSize="558,1772" sap2010:WorkflowViewState.IdRef="Sequence_119">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             <x:Boolean x:Key="IsPinned">False</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
@@ -730,7 +730,7 @@
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
-                                    <If Condition="[Not activeWindow.Get(&quot;hwnd&quot;).ToString.Equals(mainHwnd)]" DisplayName="If Chrome Window is a popup" sap:VirtualizedContainerService.HintSize="452,578" sap2010:WorkflowViewState.IdRef="If_26">
+                                    <If Condition="[Not activeWindow.Get(&quot;hwnd&quot;).ToString.Equals(mainHwnd) AndAlso activeWindow.Get(&quot;title&quot;).ToString.Trim &lt;&gt; &quot;&quot;]" DisplayName="If Chrome Window is a popup" sap:VirtualizedContainerService.HintSize="452,578" sap2010:WorkflowViewState.IdRef="If_26">
                                       <If.Then>
                                         <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,165" sap2010:WorkflowViewState.IdRef="Sequence_114">
                                           <sap:WorkflowViewStateService.ViewState>
@@ -818,13 +818,13 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
             <ui:IfElseIfV2.Then>
-              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="484,283" sap2010:WorkflowViewState.IdRef="Sequence_107">
+              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="592,283" sap2010:WorkflowViewState.IdRef="Sequence_107">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <Assign sap:VirtualizedContainerService.HintSize="450,175" sap2010:WorkflowViewState.IdRef="Assign_45">
+                <Assign sap:VirtualizedContainerService.HintSize="558,175" sap2010:WorkflowViewState.IdRef="Assign_45">
                   <Assign.To>
                     <OutArgument x:TypeArguments="x:Int32">[closeAllWindowPopupStatus]</OutArgument>
                   </Assign.To>
@@ -832,7 +832,7 @@
                     <InArgument x:TypeArguments="x:Int32">[1]</InArgument>
                   </Assign.Value>
                 </Assign>
-                <Sequence DisplayName="Close Dom Popup" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="Sequence_106">
+                <Sequence DisplayName="Close Dom Popup" sap:VirtualizedContainerService.HintSize="558,48" sap2010:WorkflowViewState.IdRef="Sequence_106">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -939,7 +939,7 @@
               </Sequence>
             </ui:IfElseIfV2.Then>
           </ui:IfElseIfV2>
-          <If Condition="[closeAllWindowPopupStatus.Equals(1) AndAlso closeAllDomPopupStatus.Equals(1)]" DisplayName="Break If Closed Window And Dom Popup" sap:VirtualizedContainerService.HintSize="486,48" sap2010:WorkflowViewState.IdRef="If_8">
+          <If Condition="[closeAllWindowPopupStatus.Equals(1) AndAlso closeAllDomPopupStatus.Equals(1)]" DisplayName="Break If Closed Window And Dom Popup" sap:VirtualizedContainerService.HintSize="594,48" sap2010:WorkflowViewState.IdRef="If_8">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
