@@ -1,0 +1,14 @@
+﻿{
+  "Name": "업로드완료",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "SLFnoPS83kC-_2Bje19PcA",
+  "Reference": "vDclkoP0ZUavYEPzHVhVmw/SLFnoPS83kC-_2Bje19PcA",
+  "ParentRef": "vDclkoP0ZUavYEPzHVhVmw/pwn8YZtyHEGo_KiDTYH1eQ",
+  "Created": "2026-05-12T06:54:06.7010269Z",
+  "Updated": "2026-05-12T06:54:06.7010269Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.31.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

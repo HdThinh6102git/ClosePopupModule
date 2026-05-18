@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Open",
+  "Type": "Screen",
+  "Id": "5kaVYpL41kqgMa-jdhRPJw",
+  "Reference": "vDclkoP0ZUavYEPzHVhVmw/5kaVYpL41kqgMa-jdhRPJw",
+  "ParentRef": "vDclkoP0ZUavYEPzHVhVmw/VYi_IOipXEWhkClzWw8yhw",
+  "Created": "2026-05-12T08:05:53.1948996Z",
+  "Updated": "2026-05-12T08:05:53.1948996Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.31.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

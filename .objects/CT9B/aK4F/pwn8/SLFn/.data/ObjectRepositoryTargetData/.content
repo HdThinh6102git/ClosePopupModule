@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Q58ne0BgnkKTQrAWXCA2bA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="app.openga.calsplatz.com/new_policy_upload" DesignTimeRectangle="278, 205, 1630, 820" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;ul&amp;gt;li&amp;gt;div&amp;gt;lazy-component&amp;gt;div&amp;gt;div' parentid='__nuxt' tag='DIV' /&gt;" Guid="e40d9123-3b01-499e-8775-1ef3db2d9650" ScopeSelectorArgument="&lt;html app='chrome.exe' title='신계약엑셀업로드 - OPENGA' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="10511fb484525eddd2e4de29add43399.jpg" xmlns="">0M_M_gmZTUEqRhhPnR816Qg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

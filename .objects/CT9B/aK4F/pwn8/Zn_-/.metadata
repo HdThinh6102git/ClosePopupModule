@@ -1,0 +1,13 @@
+﻿{
+  "Name": "2026년05월보험사",
+  "Type": "Element",
+  "Id": "Zn_-sjl3cEKq_fdE4_V6-g",
+  "Reference": "vDclkoP0ZUavYEPzHVhVmw/Zn_-sjl3cEKq_fdE4_V6-g",
+  "ParentRef": "vDclkoP0ZUavYEPzHVhVmw/pwn8YZtyHEGo_KiDTYH1eQ",
+  "Created": "2026-05-12T07:05:50.9682635Z",
+  "Updated": "2026-05-12T07:05:50.9682635Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.31.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome [미래에셋생명] 신계약 검증_장기 (마감년월 )",
+  "Type": "Screen",
+  "Id": "7FjVzrLXjEWYzEYJDLbTgQ",
+  "Reference": "vDclkoP0ZUavYEPzHVhVmw/7FjVzrLXjEWYzEYJDLbTgQ",
+  "ParentRef": "vDclkoP0ZUavYEPzHVhVmw/aK4FXc9WSkObnFf36q274Q",
+  "Created": "2026-05-12T07:36:47.9667017Z",
+  "Updated": "2026-05-12T07:36:47.9667017Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.31.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Open",
+  "Type": "App",
+  "Id": "roHPw_Gnw0uIiN5-y0M_Yw",
+  "Reference": "vDclkoP0ZUavYEPzHVhVmw/roHPw_Gnw0uIiN5-y0M_Yw",
+  "Created": "2026-05-12T08:05:53.1456635Z",
+  "Updated": "2026-05-12T08:05:53.1456635Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.31.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
