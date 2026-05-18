@@ -84,7 +84,7 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="ModuleImplementationExample" sap:VirtualizedContainerService.HintSize="1238,639" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="ModuleImplementationExample" sap:VirtualizedContainerService.HintSize="1241,639" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="ui:UiElement" Name="browserInstance" />
     </Sequence.Variables>
@@ -110,7 +110,7 @@
                 <uix:TargetAnchorable BrowserURL="webbrowsertools.com/popup-blocker" ContentHash="BgfJEyjFO0apv4M6_nId6Q" DesignTimeRectangle="216, 803, 187, 45" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='popup' tag='TABLE' /&gt;&lt;webctrl tableRow='3' tag='INPUT' /&gt;" Guid="b4c3faa0-04e9-4cf3-a507-75a5e5176086" InformativeScreenshot="eaf945750e554fd4d979cfdcff87d781.jpg" Reference="vDclkoP0ZUavYEPzHVhVmw/ExCLZS8uAUWQASyoH9OdTA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Test Popup Blocker - WebBrowserTools' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="ClosePopup - Invoke Workflow File (ClosePopup.xaml)" sap:VirtualizedContainerService.HintSize="416,168" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="ClosePopup.xaml">
+            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="ClosePopupVer02 - Invoke Workflow File (ClosePopupVer02.xaml)" sap:VirtualizedContainerService.HintSize="416,168" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="ClosePopupVer02.xaml">
               <ui:InvokeWorkflowFile.Arguments>
                 <InArgument x:TypeArguments="ui:UiElement" x:Key="in_Browser">[browserInstance]</InArgument>
                 <InArgument x:TypeArguments="x:String" x:Key="in_PopupType">ALL</InArgument>
